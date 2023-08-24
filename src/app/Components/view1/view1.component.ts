@@ -18,6 +18,6 @@ export class View1Component {
     this.id = this.activatedRoute.snapshot.params['id']
 
     this.title.setTitle('Upload ' + this.id)
-    this.audio = new Audio(`https://vttpcsfbucket.sgp1.digitaloceanspaces.com/${this.id}`);
+    // this.audio = new Audio(`https://vttpcsfbucket.sgp1.digitaloceanspaces.com/${this.id}`);
   }
 }
